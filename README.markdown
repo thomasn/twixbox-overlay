@@ -14,7 +14,8 @@ As root:
 
     emerge -av layman
     $EDITOR /etc/layman/layman.cfg    # Add to 'overlays' section:
-      http://github.com/gentoo/twixbox-overlay/blob/master/overlay.xml?raw=true
+      http://github.com/thomasn/twixbox-overlay/blob/master/overlay.xml?raw=true
+    layman -L
     layman -a twixbox-overlay
     layman -S
     layman -l    # should show 'twixbox-overlay'
