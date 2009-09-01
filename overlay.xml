@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay
+     type = "git"
+     src = "git://github.com/thomasn/twixbox-overlay.git"
+     name = "twixbox-overlay"
+     status = "unofficial"
+     contact = "nichols7@gmail.com">
+ 
+    <link>
+      http://www.nexus10.com/
+    </link>
+ 
+    <description>
+      Ebuild for the clamz tool for downloading from Amazon MP3. An alternative to
+      Amazon's closed-source net-misc/amazonmp3. Ebuild is from
+      http://bugs.gentoo.org/267873
+    </description>
+  </overlay>
+</layman>
+ 

@@ -1,0 +1,24 @@
+# twixbox-overlay - assorted ebuilds for Gentoo Portage that haven't made it to 'sunrise' yet.
+
+## Intro
+
+Oddments...
+
+ ### clamz - a commandline Amazon MP3 downloader, as an alternative to net-misc/amazonmp3
+
+ * http://bugs.gentoo.org/267873
+
+## Installation
+
+As root:
+
+    emerge -av layman
+    $EDITOR /etc/layman/layman.cfg    # Add to 'overlays' section:
+      http://github.com/gentoo/twixbox-overlay/blob/master/overlay.xml?raw=true
+    layman -a twixbox-overlay
+    layman -S
+    layman -l    # should show 'twixbox-overlay'
+    echo 'source /usr/portage/local/layman/make.conf' >> /etc/make.conf
+    emerge -av net-misc/clamz
+
+Feedback via github please.
