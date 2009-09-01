@@ -1,12 +1,13 @@
-# twixbox-overlay - assorted ebuilds for Gentoo Portage that haven't made it to 'sunrise' yet.
+# twixbox-overlay
 
-## Intro
+Assorted ebuilds for Gentoo Portage that haven't made it to 'sunrise' yet.
 
-Oddments...
+## Contents
 
- ### clamz - a commandline Amazon MP3 downloader, as an alternative to net-misc/amazonmp3
+Available ebuilds:
 
- * http://bugs.gentoo.org/267873
+ * clamz - a commandline Amazon MP3 downloader, as an alternative to net-misc/amazonmp3
+   - ebuild from http://bugs.gentoo.org/267873
 
 ## Installation
 
